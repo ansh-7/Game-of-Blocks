@@ -1,7 +1,7 @@
 import time
 import hashlib
  
-string1 = input("Enter the string: ")
+string1 = input("Enter String: ")
 string2 = string1
 Flag = 1
 i = 1
@@ -15,8 +15,8 @@ while Flag==1:
       Flag2=0
       break
   if Flag2==1:
-    print("The hash value is",Hash)  
-    print("The nonce value is",i-1)
+    print("Hash Value:",Hash)  
+    print("Nonce Value:",i-1)
     Flag=0
   string2 = string1 + str(i)
   i+=1  
