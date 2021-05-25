@@ -1,0 +1,1 @@
+This python code takes a string as input and returns the nonce value which will generate the SHA 256 Hash Value less than 0x00000FFFF.... on appending to the end of the original string , and also outputs the time taken by the program to execute the commands.
